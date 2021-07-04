@@ -4,4 +4,4 @@ ip_train.csv) that contains 53 anonymized features and a target column. Your tas
 
 Jupyter notebook with analysis https://github.com/NikBabych/TestIntern/blob/main/test3/jupyter%20notebook%20with%20analysis.ipynb
 file with model predictions  https://github.com/NikBabych/TestIntern/blob/main/test3/prediction_results.csv
-code for modeling (Python 3)
+code for modeling (Python 3) https://github.com/NikBabych/TestIntern/blob/main/test3/model.py
