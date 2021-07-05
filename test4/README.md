@@ -1,4 +1,5 @@
-task:
+Task:
+
 Soil erosion detection
 
 Here is one of the open problems in Quantum. Soil erosion is a really unwanted process that spoils huge areas of fertile land. Your task is to train model for erosion detection.
