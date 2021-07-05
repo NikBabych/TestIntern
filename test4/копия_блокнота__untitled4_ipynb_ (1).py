@@ -165,11 +165,6 @@ from typing import List, Callable, Tuple
 import numpy as np
 import albumentations as A
 
-
-def normalize_01(inp: np.ndarray):
-    inp_out = (inp - np.min(inp)) / np.ptp(inp)
-    return inp_out
-
 class Repr:
 
     def __repr__(self): return f'{self.__class__.__name__}: {self.__dict__}'
