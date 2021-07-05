@@ -6,6 +6,7 @@ Here is one of the open problems in Quantum. Soil erosion is a really unwanted p
 What do you have:
 
 -Sentinel2 tile (T36UXV_20200406T083559_TCI_10m.jp2);
+
 -Masks with soil erosion for this tile (masks directory);
 
 
