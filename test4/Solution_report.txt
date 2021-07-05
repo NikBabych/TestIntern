@@ -1,14 +1,11 @@
-For segmentation detection, I used the architecture Unet(4 blocks,filter 32).Data-set for train and validation test was made from T36UXV_20200406T083559_TCI_10m.jp2 
+  For segmentation detection, I used the architecture Unet(4 blocks,filter 32).Data-set for train and validation test was made from T36UXV_20200406T083559_TCI_10m.jp2 
 snapshot clippings(64 in each direction from the average coordinate of each soil erosion mask-128x18) and target set consisting mask-matrix with value 0 -where not erosion 
 and 1 - erosion.The result is a set of 493 sample(80% train and 20% val test).For training was used augmentation such as horizontal and vertical flip, randomly change brightness 
 and contrast.There was definitely an optimal number of epochs and a learning rate of - 50, 0.05.And lr_scheduler after 30 epochs on 0.5.
 
-
-As for pictures of such poor quality and so small set I got a small error and a nice visualization of the prediction for validation(can be seen in GC analysis).
-
-Having studied articles on the topic of erosion and neural networks on erosion I can convey a few ideas:try to use a digital elevation model to determine the slope gradient,
-the length of the slope and the curvature of the surface under study.Also determine the properties of clay percentage and vegetation cover from soil texture maps. And use this data when 
-training models since, according to research, these predicts have the greatest correlation with erosion. Also worth taking 
-into account the average amount of precipitation, since drip erosion is the most common.
+  As for pictures of such poor quality and so small set I got a small error and a nice visualization of the prediction for validation(can be seen in GC analysis).
+  
+  Having studied articles on the topic of erosion and neural networks on erosion I can convey a few ideas:try to use a digital elevation model to determine the slope gradient,
+the length of the slope and the curvature of the surface under study.Also determine the properties of clay percentage and vegetation cover from soil texture maps. And use this data when training models since, according to research, these predicts have the greatest correlation with erosion. Also worth taking into account the average amount of precipitation, since drip erosion is the most common.
 
 
